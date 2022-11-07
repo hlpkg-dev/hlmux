@@ -71,7 +71,9 @@ The client side command `retry` is able to invoke re-handshaking (which is diffe
 
 ![stuff text filter in hw.so](./assets/ghidra-hw.png)
 
-Good news is that there is still an approach to trick the clients into a state similar to a manually-issued `retry`.
+Good news is that there is still an approach to trick the clients into a state similar to a manually-issued `retry`. This is a sequential diagram of `hlmux`.
+
+![mechanism](./assets/mechanism.svg)
 
 [admin-slowhacking]: https://developer.valvesoftware.com/wiki/Admin_Slowhacking
 [redirect-issue]: https://github.com/ValveSoftware/halflife/issues/5
